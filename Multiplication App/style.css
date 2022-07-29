@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 200px;
+    /* background-color: rgb(10, 136, 140); */
+    background-image: url("https://media.istockphoto.com/photos/colorful-pencils-white-papers-and-metal-pencil-sharpener-empty-place-picture-id925244914?k=20&m=925244914&s=612x612&w=0&h=dj3SxlxqMOh87oWpgSQtF04CuRAtFXOCSkZy3ELeBzI=");
+    background-size: cover;
+}
+.box-model{
+    background-color: brown;
+    /* width: 60%; */
+    /* margin-left: 200px; */
+    /* height: auto; */
+    height: 240px;
+    /* width: fit-content; */
+    width: 100%;
+    padding: 20px;
+    /* overflow: hidden; */
+    /* display: flex; */
+    text-transform: uppercase;
+    /* text-shadow: 2px 2px 2px rgb(193, 155, 98); */
+}
+h3{
+    font-size: 20px;
+    margin-left: 700px;
+    color: white;
+    /* background-color: black; */
+    
+}
+#tex{
+    border: 2px solid rgb(8, 184, 78);
+    font-size: 20px;
+    border-radius: 5px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(6, 125, 26);
+    width: 300px;
+    font-size: 20px;
+    /* padding: 20px; */
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 3px;
+   
+}
+button:hover{
+    color: palevioletred;
+    /* cursor: all-scroll; */
+}
+input::placeholder{
+    color:rgb(215, 39, 206) ;
+}
